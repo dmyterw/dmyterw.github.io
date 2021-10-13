@@ -16,11 +16,41 @@ body {
     overflow: hidden;
 }
 
+@keyframes color1 {
+    from {border-right: 700px solid #ad1c0c;}
+    to {border-right: 700px solid #02ccff;}
+}
+
+@keyframes color2 {
+    from {background-color:#a5a8ab;}
+    to {background-color: #cc00ff;}
+}
+
+@keyframes color3 {
+    from {border-top: 260px solid #a5a8ab;}
+    to {border-top: 260px solid #cc00ff;}
+}
+
+@keyframes color4 {
+    from {border-right: 333px solid #25211f;}
+    to {border-right: 333px solid #ff5804;}
+}
+
+@keyframes color5 {
+    from {border-left: 166px solid #d1a745}
+    to {border-left: 166px solid #3cff00}
+}
+
+
 .item1 {
     background-color: #a5a8ab;
     width: 333px;
     height: 500px;
     z-index: -1;
+    animation-name: color2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .item2 {
@@ -36,6 +66,10 @@ body {
     width: 0px;
     height: 0px;
     transform: translate(-208px, 0px);
+    animation-name: color3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .item9 {
@@ -57,6 +91,10 @@ body {
     width: 400px;
     height: 390px;
     transform: translate(0px, -57px);
+    animation-name: color2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     z-index: -1;
 }
 
@@ -70,6 +108,10 @@ body {
     padding-top: 170px;
     padding-bottom: 170px;
     z-index: 1;
+    animation-name: color4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .item6 {
@@ -79,6 +121,10 @@ body {
     border-bottom: 700px solid transparent;
     border-right: 700px solid #ad1c0c;
     transform: translate(-335px, -425px);
+    animation-name: color1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .item7 {
@@ -89,4 +135,8 @@ body {
     border-left: 166px solid #d1a745;
     transform: translate(0px, -50px);
     z-index: -1;
+    animation-name: color5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
