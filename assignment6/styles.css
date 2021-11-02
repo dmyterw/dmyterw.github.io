@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+
+}
+
+header {
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-bottom: 15px;
+    color: blanchedalmond;
+    font-size: 80px;
+    font-family: Tahoma;
+    letter-spacing: 15px;
+    text-align: left;
+    border-bottom: blanchedalmond 10px solid;
+}
+
+.grid-container {
+    margin-left: 35px;
+    max-width: 75%;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 30px;
+    font-family: Tahoma;
+    color: blanchedalmond;
+    line-height: 50px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: blanchedalmond;
+}
+
+a:hover {
+    color:green;
+}
+
+a:active {
+    color: greenyellow;
+}
